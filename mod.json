@@ -1,0 +1,15 @@
+{
+  "folium": 1,
+  "id": "plugin-manager",
+  "name": "插件管家",
+  "version": "1.1.0",
+  "author": "ZCode",
+  "description": "在 Folia 首页集中管理 Folium 插件：多选启用、关闭、删除，并内置官方社区市场，可浏览、搜索、安装与更新。",
+  "main": "index.cjs",
+  "client": "client.mjs",
+  "preview": "preview.png",
+  "permissions": [
+    "filesystem.data"
+  ],
+  "folia": ">=0.7.22"
+}
